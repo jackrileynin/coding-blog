@@ -1,0 +1,39 @@
+{
+  "name": "02-challenge",
+  "version": "1.0.0",
+  "description": "Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node ./seeders/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.3.16" ,
+    "express-handlebars": "^5.3.4",
+    "sequelize": "^6.6.5",
+    "mysql2": "^2.3.0",
+    "dotenv": "^10.0.0",
+    "bcrypt": "^5.0.1",
+    "express-session": "^1.17.2",
+    "connect-session-sequelize": "^7.0.4"
+  },
+  "keywords": [
+    "express",
+    "handlebars",
+    "sequelize",
+    "mysql2",
+    "dotenv",
+    "bcrypt",
+    "express-session",
+    "connect-session-sequelize"
+  ],
+
+
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}

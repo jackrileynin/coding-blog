@@ -1,0 +1,14 @@
+{{#if post}}
+  <h2>{{post.title}}</h2>
+  <p>{{post.content}}</p>
+  {{#each comments}}
+    {{> comment}}
+  {{/each}}
+  <form id="comment-form" action="/api/comment" method="post">
+    <label for="comment">Add a Comment:</label>
+    <input type="text" id="comment" name="comment" required>
+    <button type="submit">Submit Comment</button>
+  </form>
+{{else}}
+  <p>No post found.</p>
+{{/if}}
