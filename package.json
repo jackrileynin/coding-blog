@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "mongoose": "^5.3.16" ,
     "express-handlebars": "^5.3.4",
     "sequelize": "^6.6.5",
