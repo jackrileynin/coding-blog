@@ -13,7 +13,7 @@
     "mongoose": "^5.3.16" ,
     "express-handlebars": "^5.3.4",
     "sequelize": "^6.6.5",
-    "mysql2": "^2.3.0",
+    "mysql2": "^3.9.8",
     "dotenv": "^10.0.0",
     "bcrypt": "^5.0.1",
     "express-session": "^1.17.2",
