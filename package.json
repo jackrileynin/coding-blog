@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.3.16" ,
+    "mongoose": "^6.13.6" ,
     "express-handlebars": "^5.3.4",
     "sequelize": "^6.6.5",
     "mysql2": "^2.3.0",
